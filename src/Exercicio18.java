@@ -9,8 +9,8 @@ public class Exercicio18 {
         System.out.println("Entre com a velocidade da internet:");
         double velInternet = scan.nextDouble();
 
-        double tempo = tamArquivo / velInternet;
+        double tempoS = tamArquivo/(velInternet/8);
 
-        System.out.println(" Tempo de downloand:" + tempo);
+        System.out.println("Tempo de downloand em S:" + tempoS);
     }
 }
